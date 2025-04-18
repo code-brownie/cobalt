@@ -38,10 +38,10 @@ export default function Profile() {
             </div>
           </div>
           <div className="md:w-1/2 flex justify-center">
-            <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-black dark:border-white">
+            <div className="relative w-64 h-74 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-black dark:border-white">
               
               <Image 
-                src="/images/profile-placeholder.jpg" 
+                src="/profile-image.png" 
                 alt="Aman Kumar"
                 fill
                 style={{ objectFit: 'cover' }}
