@@ -4,28 +4,13 @@ export default function Experience() {
     const experiences = [
         {
             id: 1,
-            role: 'Senior Frontend Developer',
-            company: 'Tech Company X',
-            duration: 'Jan 2023 - Present',
-            description: 'Led the development of responsive web applications using React and Next.js. Implemented state management with Redux and optimized performance. Collaborated with designers to create intuitive user interfaces.',
-            technologies: ['React', 'Next.js', 'TypeScript', 'Redux', 'Tailwind CSS']
-        },
-        {
-            id: 2,
             role: 'Full Stack Developer',
-            company: 'Agency Y',
-            duration: 'Mar 2021 - Dec 2022',
-            description: 'Developed and maintained multiple client websites and applications. Created RESTful APIs using Node.js and Express. Worked in an agile environment with daily stand-ups and sprint planning.',
-            technologies: ['JavaScript', 'Node.js', 'Express', 'MongoDB', 'React']
+            company: 'StackLane',
+            duration: 'March 2023 - Present',
+            description: 'Learned Various Technologies and worked on various projects.',
+            technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS']
         },
-        {
-            id: 3,
-            role: 'Junior Web Developer',
-            company: 'Startup Z',
-            duration: 'Jun 2019 - Feb 2021',
-            description: 'Assisted in the development of web applications. Implemented UI components and integrated APIs. Participated in code reviews and improved coding practices.',
-            technologies: ['HTML', 'CSS', 'JavaScript', 'jQuery', 'PHP']
-        }
+
     ]
 
     return (

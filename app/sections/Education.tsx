@@ -4,31 +4,12 @@ export default function Education() {
     const education = [
         {
             id: 1,
-            degree: 'Master of Science in Computer Science',
-            institution: 'University Name',
-            location: 'City, Country',
-            duration: '2020 - 2022',
-            description: 'Specialized in Web Technologies and Artificial Intelligence. Completed thesis on "Modern Web Application Architecture".',
-            courses: ['Advanced Algorithms', 'Machine Learning', 'Web Systems Architecture', 'Cloud Computing']
-        },
-        {
-            id: 2,
-            degree: 'Bachelor of Science in Computer Science',
-            institution: 'University Name',
-            location: 'City, Country',
-            duration: '2016 - 2020',
-            description: 'Graduated with honors. Participated in various coding competitions and hackathons.',
+            degree: 'Bachelor of Engineering in Computer Science',
+            institution: 'Siddaganga Institute of Technology',
+            location: 'Tumkur, India',
+            duration: '2021 - 2025',
             courses: ['Data Structures', 'Database Systems', 'Web Development', 'Software Engineering']
         },
-        {
-            id: 3,
-            degree: 'Web Development Bootcamp',
-            institution: 'Coding Academy',
-            location: 'Online',
-            duration: '2015',
-            description: 'Intensive 12-week program focused on modern web development technologies and practices.',
-            courses: ['HTML/CSS', 'JavaScript', 'React', 'Node.js']
-        }
     ]
 
     return (
@@ -54,7 +35,6 @@ export default function Education() {
                                     {edu.duration}
                                 </div>
                             </div>
-                            <p className="mb-4">{edu.description}</p>
                             <div>
                                 <h4 className="font-medium mb-2">Key Courses:</h4>
                                 <div className="flex flex-wrap gap-2">
