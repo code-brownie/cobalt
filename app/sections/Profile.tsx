@@ -12,7 +12,7 @@ export default function Profile() {
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-5xl md:text-6xl font-bold mb-4">
               Hi, I&apos;m <span className="inline-block relative">
-                Your Name
+                Aman Kumar
                 <span className="absolute bottom-0 left-0 right-0 h-2 bg-gray-300 dark:bg-gray-700 rounded-full"></span>
               </span>
             </h1>
@@ -42,7 +42,7 @@ export default function Profile() {
               
               <Image 
                 src="/images/profile-placeholder.jpg" 
-                alt="Your Name"
+                alt="Aman Kumar"
                 fill
                 style={{ objectFit: 'cover' }}
                 priority

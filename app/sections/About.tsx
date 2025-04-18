@@ -10,7 +10,7 @@ export default function About() {
         >
             <div className="max-w-3xl mx-auto">
                 <p className="text-lg mb-6">
-                    Hello! I&apos;m Your Name, a passionate developer with expertise in building modern web applications.
+                    Hello! I&apos;m Aman Kumar, a passionate developer with expertise in building modern web applications.
                     I enjoy solving complex problems and creating intuitive, dynamic user experiences.
                 </p>
 
