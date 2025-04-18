@@ -1,12 +1,10 @@
 'use client'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
-import { usePathname } from 'next/navigation'
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const pathname = usePathname()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,18 +15,13 @@ export default function Header() {
   }, [])
 
   const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'About', href: '/about' },
-    { name: 'Experience', href: '/experience' },
-    { name: 'Projects', href: '/projects' },
-    { name: 'Interests', href: '/interests' },
-    { name: 'Education', href: '/education' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'About', href: '#about' },
+    { name: 'Experience', href: '#experience' },
+    { name: 'Projects', href: '#projects' },
+    { name: 'Interests', href: '#interests' },
+    { name: 'Education', href: '#education' },
+    { name: 'Contact', href: '#contact' },
   ]
-
-  const isActive = (path: string) => {
-    return pathname === path
-  }
 
   return (
     <header
@@ -62,11 +55,7 @@ export default function Header() {
               <Link 
                 key={item.name} 
                 href={item.href}
-                className={`text-base font-medium transition-colors ${
-                  isActive(item.href) 
-                    ? 'text-black dark:text-white font-bold border-b-2 border-black dark:border-white' 
-                    : 'text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white'
-                }`}
+                className="text-base font-medium hover:text-gray-500 dark:hover:text-gray-300"
               >
                 {item.name}
               </Link>
@@ -103,11 +92,7 @@ export default function Header() {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className={`text-base font-medium ${
-                        isActive(item.href) 
-                          ? 'text-black dark:text-white font-bold'
-                          : 'text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white'
-                      }`}
+                      className="text-base font-medium hover:text-gray-700 dark:hover:text-gray-300"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
