@@ -1,4 +1,3 @@
-// app/sections/Interests.tsx
 import Section from '../components/Section'
 
 export default function Interests() {
